@@ -1,0 +1,142 @@
+#if __has_include(".extend.Xresources")
+#include ".extend.Xresources"
+#endif
+
+! ^ The above lines are no comments!
+! Leave them as they are if a file ~/.extend.Xresources is being used on your system.
+! config can be added there or also here below.
+! For comments use "!"
+
+Xft.dpi: 96
+Xft.antialias: false
+Xft.hinting: 1
+Xft.autohint: 1
+Xft.rgba: rgb
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
+xterm*allowBoldFonts: false
+
+*pointerColor: #16A085
+! xterm*faceName: 	Misc Fixed:size=15:antialias=false
+! xterm*faceName: Fira Code:style=Medium:size=12
+xterm*faceName: Less Perfect DOS VGA:size=12
+!*font: Misc Fixed
+!*boldFont: Misc Fixed
+!*font: Fira Code:style=Medium:size=10
+!*boldFont: Fira Code:style=Medium:size=10
+! URXVT options
+urxvt.letterSpace: 0
+urxvt.boldFont: 10x20
+urxvt.scrollBar: false 
+urxvt.perl-ext-common: fullscreen
+urxvt.keysym.F11: perl:fullscreen:switch
+
+
+rofi.background:      #2f343f
+rofi.foreground:      #f3f4f5
+rofi.highlightbg:     #e53935
+rofi.highlightfg:     #ffffff
+rofi.bordercolor:     #0000ff
+
+! special
+!*.foreground:   #b2a191
+!*.background:   #171717
+!*.cursorColor:  #b2a191
+
+!*.cursorColor:  #c0c0c0
+!*.foreground:	#c0c0c0
+!*.background:	#000000
+
+! black
+!*.color0:       #202020
+!*.color8:       #404040
+
+!*.color0:		#000000
+!*.color8:		#808080
+
+! red
+!*.color1:       #bf3f34
+!*.color9:       #ff6c5f
+
+!*.color1:		#800000
+!*.color9:		#ff0000
+
+! green
+!*.color2:       #707d22
+!*.color10:      #b8ca4b
+
+!*.color2:		#008000
+!*.color10:		#00FF00
+
+! yellow
+!*.color3:       #bf7a29
+!*.color11:      #c7a551
+
+!*.color3:		#808000
+!*.color11:		#FFFF00
+
+! blue
+!*.color4:       #627a92
+!*.color12:      #95b9de
+
+!*.color4:		#000080
+!*.color12:		#0000FF
+
+! magenta
+!*.color5:       #75507b
+!*.color13:      #ad7fa8
+
+!*.color5:		#800080
+!*.color13:		#FF00FF
+
+! cyan
+!*.color6:       #757978
+!*.color14:      #9fa590
+
+!*.color6:		#008080
+!*.color14:		#00FFFF
+
+! white
+!*.color7:       #b2a191
+!*.color15:      #e8d0c3
+
+!*.color7:		#c0c0c0
+!*.color15:		#ffffff
+
+! special
+*.foreground:   #babdb6
+*.background:   #000000
+*.cursorColor:  #babdb6
+
+! black
+*.color0:       #2e3436
+*.color8:       #555753
+
+! red
+*.color1:       #cc0000
+*.color9:       #ef2929
+
+! green
+*.color2:       #4e9a06
+*.color10:      #8ae234
+
+! yellow
+*.color3:       #c4a000
+*.color11:      #fce94f
+
+! blue
+*.color4:       #3465a4
+*.color12:      #729fcf
+
+! magenta
+*.color5:       #75507b
+*.color13:      #ad7fa8
+
+! cyan
+*.color6:       #06989a
+*.color14:      #34e2e2
+
+! white
+*.color7:       #d3d7cf
+*.color15:      #eeeeec
+
